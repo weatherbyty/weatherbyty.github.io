@@ -1,1 +1,70 @@
-#weather
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 1080px;
+    align-items: top;
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+.header {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.bordered {
+    border-left: 1pt black solid;
+    border-right: 1pt black solid;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.forecast {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.hightemp {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    text-align: center;
+    font-size: 75pt;
+    background-color: rgba(255,255,255,0.5);
+    border-bottom: black;
+}
+
+.precip {
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    background-color: rgba(100,100,100,0.8);
+}
+
+.lowtemp {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    text-align: center;
+    font-size: 50pt;
+    background-color: rgba(255,255,255,0.5);
+    border-top: black;
+}
+
+.hot {
+    background-color: rgba(255,0,0,0.2);
+}
+
+.cold {
+    background-color: rgba(0,0,255,0.2);
+}
+
+.rain {
+    background-color: rgba(200,200,255,0.2);
+}
