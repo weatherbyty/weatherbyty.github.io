@@ -1,2 +1,1 @@
-# InnerSource
 # weatherbyty.github.io
