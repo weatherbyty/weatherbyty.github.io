@@ -24,6 +24,16 @@
     vertical-align: middle;
 }
 
+.forecast-picture {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+.forecast-picture img {
+    max-width: 100%;
+    height: auto;
+}
+
 .forecast {
     padding-top: 10pt;
     padding-bottom: 10pt;
