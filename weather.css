@@ -39,14 +39,15 @@
     padding-bottom: 10pt;
     text-align: center;
     font-size: larger;
-    background-color: rgba(255,255,255,0.5);
+    color: lightgray;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .hightemp {
     padding-top: 10pt;
     padding-bottom: 10pt;
     text-align: center;
-    font-size: 75pt;
+    font-size: calc(4vw + 4vh + 2vmin);
     background-color: rgba(255,255,255,0.5);
     border-bottom: black;
 }
@@ -54,6 +55,8 @@
 .precip {
     margin: 0;
     padding: 0;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
     font-size: larger;
     background-color: rgba(100,100,100,0.8);
 }
@@ -62,7 +65,7 @@
     padding-top: 10pt;
     padding-bottom: 10pt;
     text-align: center;
-    font-size: 50pt;
+    font-size: calc(4vw + 4vh);
     background-color: rgba(255,255,255,0.5);
     border-top: black;
 }
