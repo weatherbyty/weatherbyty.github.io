@@ -11,6 +11,23 @@
     <link rel="stylesheet" href="normalize.css">
     <!-- <link rel="stylesheet" href="skeleton.css"> -->
     <link rel="stylesheet" href="weather.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="weather.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#monHigh").html(monHigh.toString())
+            $("#monLow").html(monLow.toString())
+            $("#tueHigh").html(tueHigh.toString())
+            $("#tueLow").html(tueLow.toString())
+            $("#wedHigh").html(wedHigh.toString())
+            $("#wedLow").html(wedLow.toString())
+            $("#thuHigh").html(thuHigh.toString())
+            $("#thuLow").html(thuLow.toString())
+            $("#friHigh").html(friHigh.toString())
+            $("#friLow").html(friLow.toString())
+        });
+    </script>
 
     <style type="text/css">
         body {
@@ -36,13 +53,13 @@
                 Partly Sunny
             </div>
             <div class="hightemp">
-                82&deg;
+                <span id="monHigh">--</span>&deg;
             </div>
             <div class="precip">
                 10% chance of rain
             </div>
             <div class="lowtemp">
-                58&deg;
+                <span id="monLow">--</span>&deg;
             </div>
         </div>
         <div class="two columns bordered ">
@@ -56,13 +73,13 @@
                 Sunny
             </div>
             <div class="hightemp">
-                92&deg;
+                <span id="tueHigh">--</span>&deg;
             </div>
             <div class="precip">
                 10% chance of rain
             </div>
             <div class="lowtemp">
-                68&deg;
+                <span id="tueLow">--</span>&deg;
             </div>
         </div>
         <div class="two columns bordered ">
@@ -76,13 +93,13 @@
                 Partly Sunny
             </div>
             <div class="hightemp">
-                82&deg;
+                <span id="wedHigh">--</span>&deg;
             </div>
             <div class="precip">
                 10% chance of rain
             </div>
             <div class="lowtemp">
-                58&deg;
+                <span id="wedLow">--</span>&deg;
             </div>
         </div>
         <div class="two columns bordered">
@@ -96,13 +113,13 @@
                 Partly Sunny
             </div>
             <div class="hightemp">
-                82&deg;
+                <span id="thuHigh">--</span>&deg;
             </div>
             <div class="precip">
                 10% chance of rain
             </div>
             <div class="lowtemp">
-                58&deg;
+                <span id="thuLow">--</span>&deg;
             </div>
         </div>
         <div class="two columns bordered">
@@ -116,13 +133,13 @@
                 Partly Sunny
             </div>
             <div class="hightemp">
-                82&deg;
+                <span id="friHigh">--</span>&deg;
             </div>
             <div class="precip">
                 10% chance of rain
             </div>
             <div class="lowtemp">
-                58&deg;
+                <span id="friLow">--</span>&deg;
             </div>
         </div>
     </div>
