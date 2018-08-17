@@ -12,7 +12,7 @@
     padding-top: 10pt;
     padding-bottom: 10pt;
     text-align: center;
-    font-size: larger;
+    font-size: calc(3vw);
     background-color: rgba(255,255,255,0.5);
 }
 
@@ -38,7 +38,7 @@
     padding-top: 10pt;
     padding-bottom: 10pt;
     text-align: center;
-    font-size: larger;
+    font-size: calc(2.5vw);
     color: lightgray;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -47,7 +47,7 @@
     padding-top: 10pt;
     padding-bottom: 10pt;
     text-align: center;
-    font-size: calc(4vw + 4vh + 2vmin);
+    font-size: calc(8vw);
     background-color: rgba(255,255,255,0.5);
     border-bottom: black;
 }
@@ -65,7 +65,7 @@
     padding-top: 10pt;
     padding-bottom: 10pt;
     text-align: center;
-    font-size: calc(4vw + 4vh);
+    font-size: calc(4vw);
     background-color: rgba(255,255,255,0.5);
     border-top: black;
 }
