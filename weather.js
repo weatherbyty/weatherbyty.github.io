@@ -3,7 +3,7 @@
 */
 
 
-var monHigh = 77
+var monHigh = 78
 var monLow = 52
 
 var tueHigh = 78
