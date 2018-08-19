@@ -4,7 +4,7 @@
 
 var monHigh = 93
 var monLow = 59
-var monForecast = "Hot"
+var monForecast = 'Hot'
 
 var tueHigh = 96
 var tueLow = 61
