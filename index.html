@@ -16,17 +16,41 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $("#monHigh").html(monHigh.toString())
-            $("#monLow").html(monLow.toString())
-            $("#monForecast").html(monForecast.toString())
-            $("#tueHigh").html(tueHigh.toString())
-            $("#tueLow").html(tueLow.toString())
-            $("#wedHigh").html(wedHigh.toString())
-            $("#wedLow").html(wedLow.toString())
-            $("#thuHigh").html(thuHigh.toString())
-            $("#thuLow").html(thuLow.toString())
-            $("#friHigh").html(friHigh.toString())
-            $("#friLow").html(friLow.toString())
+            // Monday
+            $("#monHigh").html(monday[HIGH].toString());
+            $("#monLow").html(monday[LOW].toString());
+            $("#monForecast").html(monday[FORECAST]);
+            $("#monPic").attr('src', monday[PICTURE]);
+            $("#monNote").html(monday[NOTE]);
+
+            // Tuesday
+            $("#tueHigh").html(tuesday[HIGH].toString());
+            $("#tueLow").html(tuesday[LOW].toString());
+            $("#tueForecast").html(tuesday[FORECAST]);
+            $("#tuePic").attr('src', tuesday[PICTURE]);
+            $("#tueNote").html(tuesday[NOTE]);
+
+            // Wednesday
+            $("#wedHigh").html(wednesday[HIGH].toString());
+            $("#wedLow").html(wednesday[LOW].toString());
+            $("#wedForecast").html(wednesday[FORECAST]);
+            $("#wedPic").attr('src', wednesday[PICTURE]);
+            $("#wedNote").html(wednesday[NOTE]);
+
+            // Thursday
+            $("#thuHigh").html(thursday[HIGH].toString());
+            $("#thuLow").html(thursday[LOW].toString());
+            $("#thuForecast").html(thursday[FORECAST]);
+            $("#thuPic").attr('src', thursday[PICTURE]);
+            $("#thuNote").html(thursday[NOTE]);
+
+            // Friday
+            $("#friHigh").html(friday[HIGH].toString());
+            $("#friLow").html(friday[LOW].toString());
+            $("#friForecast").html(friday[FORECAST]);
+            $("#friPic").attr('src', friday[PICTURE]);
+            $("#friNote").html(friday[NOTE]);
+
         });
     </script>
 
@@ -48,7 +72,7 @@
                 <strong>Monday</strong>
             </div>
             <div class="forecast-picture">
-                <img src="weatherbyty-transparent.png" />
+                <img id="monPic" src="images/weatherbyty-transparent.png" />
             </div>
             <div class="forecast">
                 <span id="monForecast">--</span>
@@ -56,8 +80,8 @@
             <div class="hightemp">
                 <span id="monHigh">--</span>&deg;
             </div>
-            <div class="precip">
-                10% chance of rain
+            <div class="notes">
+                <span id="monNote">--</span>
             </div>
             <div class="lowtemp">
                 <span id="monLow">--</span>&deg;
@@ -68,16 +92,16 @@
                 <strong>Tuesday</strong>
             </div>
             <div class="forecast-picture">
-                <img src="weatherbyty-transparent.png" />
+                <img id="tuePic" src="images/weatherbyty-transparent.png" />
             </div>
             <div class="forecast">
-                Sunny
+                <span id="tueForecast">--</span>
             </div>
             <div class="hightemp">
                 <span id="tueHigh">--</span>&deg;
             </div>
-            <div class="precip">
-                10% chance of rain
+            <div class="notes">
+                <span id="tueNote">--</span>
             </div>
             <div class="lowtemp">
                 <span id="tueLow">--</span>&deg;
@@ -88,16 +112,16 @@
                 <strong>Wednesday</strong>
             </div>
             <div class="forecast-picture">
-                <img src="weatherbyty-transparent.png" />
+                <img id="wedPic" src="images/weatherbyty-transparent.png" />
             </div>
             <div class="forecast">
-                Snow Showers
+                <span id="wedForecast">--</span>
             </div>
             <div class="hightemp">
                 <span id="wedHigh">--</span>&deg;
             </div>
-            <div class="precip">
-                10% chance of rain
+            <div class="notes">
+                <span id="wedNote">--</span>
             </div>
             <div class="lowtemp">
                 <span id="wedLow">--</span>&deg;
@@ -108,16 +132,16 @@
                 <strong>Thursday</strong>
             </div>
             <div class="forecast-picture">
-                <img src="weatherbyty-transparent.png" />
+                <img id="thuPic" src="images/weatherbyty-transparent.png" />
             </div>
             <div class="forecast">
-                Lots of Heat
+                <span id="thuForecast">--</span>
             </div>
             <div class="hightemp">
                 <span id="thuHigh">--</span>&deg;
             </div>
-            <div class="precip">
-                10% chance of rain
+            <div class="notes">
+                <span id="thuNote">--</span>
             </div>
             <div class="lowtemp">
                 <span id="thuLow">--</span>&deg;
@@ -128,20 +152,27 @@
                 <strong>Friday</strong>
             </div>
             <div class="forecast-picture">
-                <img src="weatherbyty-transparent.png" />
+                <img id="friPic" src="images/weatherbyty-transparent.png" />
             </div>
             <div class="forecast">
-                Partly Sunny
+                <span id="friForecast">--</span>
             </div>
             <div class="hightemp">
                 <span id="friHigh">--</span>&deg;
             </div>
-            <div class="precip">
-                10% chance of rain
+            <div class="notes">
+                <span id="friNote">--</span>
             </div>
             <div class="lowtemp">
                 <span id="friLow">--</span>&deg;
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer">
+            <hr/>
+            <span>Weather Data compiled by Tynan Wuehler from various sources, including Weather.com, AccuWeather, and a local AcuRite Personal Weather Station</span><br/>
+            <span class="license">Forecast icons made by <a title="Freepik" href="http://www.freepik.com">Freepik</a> from <a title="Flaticon" href="http://www.flaticon.com">www.flaticon.com</a>&nbsp;</span>
         </div>
     </div>
 </body>

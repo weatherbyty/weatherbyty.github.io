@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    height: 1080px;
+    /* height: 1080px; */
     align-items: top;
     background-color: rgba(100, 100, 100, 0.8);
 }
@@ -30,7 +30,7 @@
 }
 
 .forecast-picture img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -52,7 +52,7 @@
     border-bottom: black;
 }
 
-.precip {
+.notes {
     margin: 0;
     padding: 0;
     padding-top: 10pt;
@@ -70,14 +70,10 @@
     border-top: black;
 }
 
-.hot {
-    background-color: rgba(255,0,0,0.2);
+.footer {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    text-align: center;
+
 }
 
-.cold {
-    background-color: rgba(0,0,255,0.2);
-}
-
-.rain {
-    background-color: rgba(200,200,255,0.2);
-}

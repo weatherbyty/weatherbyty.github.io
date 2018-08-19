@@ -2,21 +2,48 @@
     This document has all the current data that goes into the main page
 */
 
-var monHigh = 93
-var monLow = 59
-var monForecast = 'Hot'
+var FLATLINE = 0;
+var FLAT = 1;
+var LINE = 2;
 
-var tueHigh = 96
-var tueLow = 61
+var SUNNY = ["icons/flatline/png/050-sun.png", "icons/flat/png/050-sun.png", "icons/line/png/050-sun.png"];
+var SUNNY_HAZY = ["icons/flatline/png/033-sunrise.png", "icons/flat/png/033-sunrise.png", "icons/line/png/033-sunrise.png"];
+var SUNNY_WINDY = ["icons/flatline/png/035-windy.png", "icons/flat/png/035-windy.png", "icons/line/png/035-windy.png"];
+var SUNNY_RAIN = ["icons/flatline/png/038-rain-1.png", "icons/flat/png/038-rain-1.png", "icons/line/png/038-rain-1.png"];
 
-var wedHigh = 92
-var wedLow = 57
+var CLOUDY = ["icons/flatline/png/049-clouds.png", "icons/flat/png/049-clouds.png", "icons/line/png/049-clouds.png"];
+var CLOUDY_PARTLY = ["icons/flatline/png/003-cloudy-4.png", "icons/flat/png/003-cloudy-4.png", "icons/line/png/003-cloudy-4.png"];
+var CLOUDY_MOSTLY = ["icons/flatline/png/005-cloudy-3.png", "icons/flat/png/005-cloudy-3.png", "icons/line/png/005-cloudy-3.png"];
 
-var thuHigh = 74
-var thuLow = 47
+var FOG = ["icons/flatline/png/023-clouds-2.png", "icons/flat/png/023-clouds-2.png", "icons/line/png/023-clouds-2.png"];
+var FOG_ICE = ["icons/flatline/png/048-temperature.png", "icons/flat/png/048-temperature.png", "icons/line/png/048-temperature.png"];
 
-var friHigh = 70
-var friLow = 45
+var RAIN = ["icons/flatline/png/010-rain-3.png", "icons/flat/png/010-rain-3.png", "icons/line/png/010-rain-3.png"];
+var RAIN_HEAVY = ["icons/flatline/png/040-rain.png", "icons/flat/png/040-rain.png", "icons/line/png/040-rain.png"];
+var RAIN_SHOWERS = ["icons/flatline/png/038-rain-1.png", "icons/flat/png/038-rain-1.png", "icons/line/png/038-rain-1.png"];
+
+var RAIN_SNOW_MIX = ["icons/flatline/png/048-temperature.png", "icons/flat/png/048-temperature.png", "icons/line/png/048-temperature.png"];
+
+var WINTERY_MIX = ["icons/flatline/png/046-temperature-1.png", "icons/flat/png/046-temperature-1.png", "icons/line/png/046-temperature-1.png"];
+
+var WINDY = ["icons/flatline/png/001-wind-1.png", "icons/flat/png/001-wind-1.png", "icons/line/png/001-wind-1.png"];
+
+
+/*
+    Each day has a high, low, forecast string, picture to show, and any extra notes 
+    in an array 
+*/
+var HIGH = 0;
+var LOW = 1;
+var FORECAST = 2;
+var PICTURE = 3;
+var NOTE = 4;
+
+var monday = [ 96, 58, 'Hot', FOG[FLATLINE], 'Hazy'];
+var tuesday = [ 91, 53, 'Hot', SUNNY_WINDY[FLATLINE], 'Hazy'];
+var wednesday = [ 76, 47, 'Hot', RAIN_SNOW_MIX[FLATLINE], 'Hazy'];
+var thursday = [ 72, 48, 'Hot', WINDY[FLATLINE], 'Hazy'];
+var friday = [ 69, 44, 'Hot', CLOUDY_MOSTLY[FLATLINE], 'Hazy'];
 
 
 
