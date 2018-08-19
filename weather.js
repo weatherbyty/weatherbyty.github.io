@@ -2,23 +2,20 @@
     This document has all the current data that goes into the main page
 */
 
+var monHigh = 93
+var monLow = 59
 
-var monHigh = 78
-var monLow = 52
+var tueHigh = 96
+var tueLow = 61
 
-var tueHigh = 78
-var tueLow = 50
+var wedHigh = 92
+var wedLow = 57
 
-var wedHigh = 77
-var wedLow = 53
+var thuHigh = 74
+var thuLow = 47
 
-var thuHigh = 75
-var thuLow = 49
-
-var friHigh = 73
-var friLow = 48
-
-
+var friHigh = 70
+var friLow = 45
 
 
 
