@@ -1,4 +1,10 @@
 .container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.forecast-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -11,7 +17,12 @@
 .title {
     padding-top: 20pt;
     padding-bottom: 20pt;
-    font-size: xx-large;
+    font-size: calc(4vw + 2vh);
+}
+
+.datetitle {
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .header {
@@ -78,9 +89,19 @@
 }
 
 .footer {
-    padding-top: 10pt;
-    padding-bottom: 10pt;
+    padding-top: 20pt;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
+    color: lightgray;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
+.about {
+    font-size: calc(1.5vw);
+}
+
+.license {
+    font-size: calc(1.5vw);
 }
 

@@ -39,7 +39,7 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'COMING SOON!';
+var weekof = 'August 20-24';
 var monday = [ 96, 58, 'Hot', FOG[FLATLINE], 'Hazy'];
 var tuesday = [ 91, 53, 'Hot', SUNNY_WINDY[FLATLINE], 'Hazy'];
 var wednesday = [ 76, 47, 'Hot', RAIN_SNOW_MIX[FLATLINE], 'Hazy'];
