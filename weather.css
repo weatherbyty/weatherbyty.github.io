@@ -8,6 +8,12 @@
     background-color: rgba(100, 100, 100, 0.8);
 }
 
+.title {
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    font-size: xx-large;
+}
+
 .header {
     padding-top: 10pt;
     padding-bottom: 10pt;
@@ -19,6 +25,7 @@
 .bordered {
     border-left: 1pt black solid;
     border-right: 1pt black solid;
+    border-top: 2pt black solid;
     width: 20%;
     text-align: center;
     vertical-align: middle;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background: url('background.jpg') no-repeat right center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+<html lang="en" style="background: url('background.gif') no-repeat right center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
 
 <head>
     <meta charset="utf-8">
@@ -16,6 +16,9 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
+            // Week Of
+            $("#weekof").html(weekof);
+
             // Monday
             $("#monHigh").html(monday[HIGH].toString());
             $("#monLow").html(monday[LOW].toString());
@@ -66,6 +69,11 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="title">
+            <strong>Weather Report for <span id="weekof">--</span></strong>
+        </div>
+    </div>
     <div class="container">
         <div class="bordered">
             <div class="header">
