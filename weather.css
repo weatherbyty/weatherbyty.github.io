@@ -1,3 +1,19 @@
+a:link {
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgray;
+    text-decoration: none;
+}
+
+
 .container {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -92,6 +108,7 @@
     padding-top: 20pt;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 20pt; 
     text-align: center;
     color: lightgray;
     background-color: rgba(0, 0, 0, 0.7);
