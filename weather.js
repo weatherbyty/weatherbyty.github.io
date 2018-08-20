@@ -53,11 +53,11 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weekof = 'August 20-24';
-var monday = [ 96, 58, 'Hot', FOG[FLATLINE], 'Hazy'];
-var tuesday = [ 91, 53, 'Hot', SUNNY_WINDY[FLATLINE], 'Hazy'];
-var wednesday = [ 76, 47, 'Hot', RAIN_SNOW_MIX[FLATLINE], 'Hazy'];
-var thursday = [ 72, 48, 'Hot', WINDY[FLATLINE], 'Hazy'];
-var friday = [ 69, 44, 'Hot', CLOUDY_MOSTLY[FLATLINE], 'Hazy'];
+var monday = [ 91, 65, 'Hot', SUNNY_HAZY[FLATLINE], 'Air Quality Alert'];
+var tuesday = [ 94, 59, 'Very Hot', SUNNY_HAZY[FLATLINE], 'Air Quality Alert'];
+var wednesday = [ 93, 57, 'Very Hot', SUNNY[FLATLINE], 'Clear'];
+var thursday = [ 78, 53, 'Cool', SUNNY_RAIN[FLATLINE], 'Clear'];
+var friday = [ 74, 50, 'Below Average', CLOUDY_PARTLY[FLATLINE], 'Cloudy'];
 
 
 
