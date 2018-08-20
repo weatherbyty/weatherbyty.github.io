@@ -91,7 +91,7 @@ a:visited {
     padding: 0;
     padding-top: 10pt;
     padding-bottom: 10pt;
-    font-size: larger;
+    font-size: calc(2vw);
     background-color: rgba(100,100,100,0.8);
 }
 
