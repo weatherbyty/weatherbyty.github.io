@@ -52,12 +52,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'August 27-31';
-var monday = [ 76, 51, 'Cooler', CLOUDY_PARTLY[FLATLINE], 'First Day (6th)'];
-var tuesday = [ 85, 53, 'Warm', SUNNY[FLATLINE], 'First day of school!'];
-var wednesday = [ 80, 52, 'Clear', SUNNY[FLATLINE], 'The Middle'];
-var thursday = [ 71, 48, 'Cool', CLOUDY_MOSTLY[FLATLINE], 'Did I tell you?'];
-var friday = [ 75, 49, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Next, The Weekend!'];
+var weekof = 'September 3-7';
+var monday = [ 76, 48, 'Normal', CLOUDY_PARTLY[FLATLINE], 'Cold at night'];
+var tuesday = [ 81, 50, 'Warm', SUNNY[FLATLINE], 'Shower chance'];
+var wednesday = [ 86, 52, 'Hot', CLOUDY_PARTLY[FLATLINE], 'HI'];
+var thursday = [ 83, 52, 'Hot', SUNNY[FLATLINE], 'HEllo'];
+var friday = [ 70, 50, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Next, The Weekend! 2.0'];
 
 
 
