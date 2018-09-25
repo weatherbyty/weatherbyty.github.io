@@ -52,12 +52,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'September 17-21';
-var monday = [ 64, 38, 'Cool', CLOUDY_PARTLY[FLATLINE], 'First Frost'];
-var tuesday = [ 69, 40, 'Cool', SUNNY[FLATLINE], 'Shower chance'];
-var wednesday = [ 67, 45, 'Showers', RAIN_SHOWERS[FLATLINE], 'Weird'];
-var thursday = [ 67, 41, 'Shower chance', CLOUDY_PARTLY[FLATLINE], 'Wet'];
-var friday = [ 69, 47, 'Partly Cloudy', RAIN_SHOWERS[FLATLINE], 'Wet Weekend...'];
+var weekof = 'September 24-28';
+var monday = [ 70, 44, 'Cool', CLOUDY_PARTLY[FLATLINE], 'Light Jacket'];
+var tuesday = [ 81, 46, 'Warm', SUNNY[FLATLINE], 'Shorts'];
+var wednesday = [ 83, 49, 'Warm', SUNNY[FLATLINE], 'Shorts'];
+var thursday = [ 84, 53, 'Hot', SUNNY[FLATLINE], 'Shorts'];
+var friday = [ 83, 50, 'Warm', SUNNY[FLATLINE], ' Shorts'];
 
 
 
