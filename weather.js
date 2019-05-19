@@ -52,12 +52,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'October 1-5';
-var monday = [ 70, 52, 'Cool', CLOUDY[FLATLINE], 'Light Jacket'];
-var tuesday = [ 65, 41, 'Cooler', CLOUDY[FLATLINE], 'PANTS Please'];
-var wednesday = [ 63, 42, 'Cool', CLOUDY_MOSTLY[FLATLINE], 'Jcket'];
-var thursday = [ 61, 39, 'Cool', CLOUDY_PARTLY[FLATLINE], 'BIg jacket'];
-var friday = [ 57, 46, 'Cold', RAIN_SHOWERS[FLATLINE], ' Coat'];
+var weekof = 'May 20-24';
+var monday = [ 67, 47, 'Cool & Cloudy', CLOUDY[FLATLINE], 'Again with the clouds'];
+var tuesday = [ 67, 46, 'Clouds!', CLOUDY_PARTLY[FLATLINE], 'Not too shabby'];
+var wednesday = [ 72, 51, 'Mostly Sunny', CLOUDY_MOSTLY[FLATLINE], 'Sun!!'];
+var thursday = [ 73, 50, 'Showers', RAIN_SHOWERS[FLATLINE], 'STEAM Night'];
+var friday = [ 68, 46, 'Ok,Whats with the clouds', CLOUDY[FLATLINE], 'Stupid Clouds'];
 
 
 
