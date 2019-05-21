@@ -53,11 +53,11 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weekof = 'May 20-24';
-var monday = [ 67, 47, 'Cool & Cloudy', CLOUDY[FLATLINE], 'Again with the clouds'];
-var tuesday = [ 62, 47, 'Clouds!', CLOUDY_WINDY[FLATLINE], 'Not too shabby'];
-var wednesday = [ 71, 49, 'Mostly Sunny', CLOUDY_PARTLY[FLATLINE], 'Sun!!'];
-var thursday = [ 74, 49, 'Slight chance of rain', SUNNY_RAIN[FLATLINE], 'STEAM Night'];
-var friday = [ 63, 47, 'Ok,Whats with the clouds', CLOUDY[FLATLINE], 'Stupid Clouds'];
+var monday = [ 67, 47, 'Cool & Cloudy', CLOUDY[FLAT], 'Again with the clouds'];
+var tuesday = [ 62, 47, 'Clouds!', CLOUDY_WINDY[FLAT], 'Not too shabby'];
+var wednesday = [ 73, 49, 'Mostly Sunny', CLOUDY_PARTLY[FLAT], 'Sun!!'];
+var thursday = [ 77, 49, 'SUN', SUNNY[FLAT], 'STEAM Night'];
+var friday = [ 63, 47, '50% of rain', RAIN_SHOWERS[FLAT], 'Stupid Clouds'];
 
 
 
