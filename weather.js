@@ -52,12 +52,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'May 20-24';
-var monday = [ 67, 47, 'Cool & Cloudy', CLOUDY[FLAT], 'Again with the clouds'];
-var tuesday = [ 62, 47, 'Clouds!', CLOUDY_WINDY[FLAT], 'Not too shabby'];
-var wednesday = [ 73, 49, 'Mostly Sunny', CLOUDY_PARTLY[FLAT], 'Sun!!'];
-var thursday = [ 77, 49, 'SUN', SUNNY[FLAT], 'STEAM Night'];
-var friday = [ 63, 47, '50% of rain', RAIN_SHOWERS[FLAT], 'Stupid Clouds'];
+var weekof = 'June 3-7';
+var monday = [ 73, 47, 'Sun', SUNNY[FLAT], '9 days'];
+var tuesday = [ 77, 53, 'SunSunSun', SUNNY[FLAT], '8 days'];
+var wednesday = [ 66, 45, 'Clouds', CLOUDY_[FLAT], ' 1 week!'];
+var thursday = [ 63, 49, 'Rain showers', RAIN_SHOWERS[FLAT], '6 days'];
+var friday = [ 61, 47, 'Rain', RAIN[FLAT], 'Stupider Clouds- 5 days'];
 
 
 
