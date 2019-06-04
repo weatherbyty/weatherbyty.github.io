@@ -57,7 +57,7 @@ var monday = [ 73, 47, 'Sun', SUNNY[FLAT], '9 days'];
 var tuesday = [ 75, 51, 'SunSunSun', SUNNY[FLAT], '8 days'];
 var wednesday = [ 68, 48, 'Clouds', CLOUDY_[FLAT], ' 1 week!'];
 var thursday = [ 65, 49, 'Rain showers', RAIN_SHOWERS[FLAT], '6 days'];
-var friday = [ 59, 46, 'Thunderstorms', THUNDERSTORM[FLAT], 'Stupider Clouds- 5 days'];
+var friday = [ 59, 46, 'Thunderstorms', RAIN_HEAVY[FLAT], 'Stupider Clouds- 5 days'];
 
 
 
