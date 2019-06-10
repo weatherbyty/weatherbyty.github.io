@@ -51,7 +51,7 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'June 3-7';
+var weekof = 'Last Week of School';
 var monday = [ 86, 59, 'Sunny', SUNNY[FLAT], '4 days'];
 var tuesday = [ 95, 64, 'Hot', CLOUDY_PARTLY[FLAT], '3 days'];
 var wednesday = [ 95, 61, 'Clouds', CLOUDY_PARTLY[FLAT], '2 days'];
