@@ -56,7 +56,7 @@ var monday = [ 86, 59, 'Sunny', SUNNY[FLAT], '4 days'];
 var tuesday = [ 95, 64, 'Hot', CLOUDY_PARTLY[FLAT], '3 days'];
 var wednesday = [ 95, 61, 'Clouds', CLOUDY_PARTLY[FLAT], '2 days'];
 var thursday = [ 86, 53, 'More Sun', SUNNY[FLAT], '1 day'];
-var friday = [ 77, 51, 'Who Cares?', CLOUD_PARTLY[FLAT], 'All Done!'];
+var friday = [ 77, 51, 'Who Cares?', CLOUDY_PARTLY[FLAT], 'All Done!'];
 
 
 
