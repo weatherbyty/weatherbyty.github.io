@@ -10,7 +10,6 @@ var SUNNY = ["icons/flatline/png/050-sun.png", "icons/flat/png/050-sun.png", "ic
 var SUNNY_HAZY = ["icons/flatline/png/033-sunrise.png", "icons/flat/png/033-sunrise.png", "icons/line/png/033-sunrise.png"];
 var SUNNY_WINDY = ["icons/flatline/png/035-windy.png", "icons/flat/png/035-windy.png", "icons/line/png/035-windy.png"];
 var SUNNY_RAIN = ["icons/flatline/png/038-rain-1.png", "icons/flat/png/038-rain-1.png", "icons/line/png/038-rain-1.png"];
-var SUNNY_WINDY = ["icons/flatline/png/035-windy.png", "icons/flat/png/035-windy.png", "icons/line/png/035-windy.png"];
 
 var CLOUDY = ["icons/flatline/png/049-clouds.png", "icons/flat/png/049-clouds.png", "icons/line/png/049-clouds.png"];
 var CLOUDY_PARTLY = ["icons/flatline/png/003-cloudy-4.png", "icons/flat/png/003-cloudy-4.png", "icons/line/png/003-cloudy-4.png"];
@@ -53,11 +52,11 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weekof = 'June 3-7';
-var monday = [ 73, 47, 'Sun', SUNNY[FLAT], '9 days'];
-var tuesday = [ 75, 51, 'SunSunSun', SUNNY[FLAT], '8 days'];
-var wednesday = [ 68, 48, 'Clouds', CLOUDY_[FLAT], ' 1 week!'];
-var thursday = [ 65, 49, 'Rain showers', RAIN_SHOWERS[FLAT], '6 days'];
-var friday = [ 59, 46, 'Thunderstorms', RAIN_HEAVY[FLAT], 'Stupider Clouds- 5 days'];
+var monday = [ 86, 59, 'Sunny', SUNNY[FLAT], '4 days'];
+var tuesday = [ 95, 64, 'Hot', CLOUDY_PARTLY[FLAT], '3 days'];
+var wednesday = [ 95, 61, 'Clouds', CLOUDY_PARTLY[FLAT], '2 days'];
+var thursday = [ 86, 53, 'More Sun', SUNNY[FLAT], '1 day'];
+var friday = [ 77, 51, 'Who Cares?', CLOUD_PARTLY[FLAT], 'All Done!'];
 
 
 
