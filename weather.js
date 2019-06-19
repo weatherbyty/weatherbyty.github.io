@@ -51,7 +51,7 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'June 17-21';
+var weekof = 'June 17-21 Weather for Beaverton, OR';
 var monday = [ 82, 53, 'Sunny', SUNNY[FLAT], 'Warm'];
 var tuesday = [ 73, 54, 'Cool', CLOUDY_PARTLY[FLAT], 'Finally'];
 var wednesday = [ 68, 48, 'Slight chance of rain', CLOUDY[FLAT], 'Rain-ish'];
