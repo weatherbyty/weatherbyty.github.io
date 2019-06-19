@@ -51,12 +51,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'Last Week of School';
-var monday = [ 86, 59, 'Sunny', SUNNY[FLAT], '4 days'];
-var tuesday = [ 95, 64, 'Hot', CLOUDY_PARTLY[FLAT], '3 days'];
-var wednesday = [ 95, 61, 'Clouds', CLOUDY_PARTLY[FLAT], '2 days'];
-var thursday = [ 86, 53, 'More Sun', SUNNY[FLAT], '1 day'];
-var friday = [ 77, 51, 'Who Cares?', CLOUDY_PARTLY[FLAT], 'All Done!'];
+var weekof = 'June 17-21';
+var monday = [ 82, 53, 'Sunny', SUNNY[FLAT], 'Warm'];
+var tuesday = [ 73, 54, 'Cool', CLOUDY_PARTLY[FLAT], 'Finally'];
+var wednesday = [ 68, 48, 'Slight chance of rain', CLOUDY[FLAT], 'Rain-ish'];
+var thursday = [ 63, 45, 'Ugh. Rain showers', RAIN_SHOWERS[FLAT], 'What happend?!'];
+var friday = [ 70, 48, 'Ok. We get it', CLOUDY_PARTLY[FLAT], '70!'];
 
 
 
