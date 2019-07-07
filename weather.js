@@ -51,12 +51,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'June 17-21 Weather for Beaverton, OR';
-var monday = [ 82, 53, 'Sunny', SUNNY[FLAT], 'Warm'];
-var tuesday = [ 73, 54, 'Cool', CLOUDY_PARTLY[FLAT], 'Finally'];
-var wednesday = [ 68, 48, 'Slight chance of rain', CLOUDY[FLAT], 'Rain-ish'];
-var thursday = [ 63, 45, 'Ugh. Rain showers', RAIN_SHOWERS[FLAT], 'What happend?!'];
-var friday = [ 70, 48, 'Ok. We get it', CLOUDY_PARTLY[FLAT], '70!'];
+var weekof = 'July 8-12 Weather for Beaverton, OR';
+var monday = [ 78, 58, 'Sunny', SUNNY[FLAT], 'Warm'];
+var tuesday = [ 70, 61, 'Clousy', CLOUDY_PARTLY[FLAT], 'I made a new word'];
+var wednesday = [ 72, 61, 'AM Showers', RAIN_SHOWERS[FLAT], 'Rain-ish'];
+var thursday = [ 78, 58, 'Partly Cloudy', CLOUDY_PARTLY[FLAT], 'back to normal'];
+var friday = [ 79, 59, 'Go see Spider Man', CLOUDY_PARTLY[FLAT], 'Peter Tingle'];
 
 
 
