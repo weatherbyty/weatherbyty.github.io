@@ -51,12 +51,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'July 8-12 Weather for Beaverton, OR';
-var monday = [ 78, 58, 'Sunny', SUNNY[FLAT], 'Warm'];
-var tuesday = [ 70, 61, 'Clousy', CLOUDY_PARTLY[FLAT], 'I made a new word'];
-var wednesday = [ 72, 61, 'AM Showers', RAIN_SHOWERS[FLAT], 'Rain-ish'];
-var thursday = [ 78, 58, 'Partly Cloudy', CLOUDY_PARTLY[FLAT], 'back to normal'];
-var friday = [ 79, 59, 'Go see Spider Man', CLOUDY_PARTLY[FLAT], 'Peter Tingle'];
+var weekof = 'August 5-9 Weather for Murrayhill, Beaverton, OR';
+var monday = [ 91, 61, 'Sunny', SUNNY[FLAT], 'HOT'];
+var tuesday = [ 92, 58, 'Sun', SUNNY[FLAT], 'Still HOT'];
+var wednesday = [ 84, 57, '20% chance of rain', SUNNY[FLAT], 'Ok'];
+var thursday = [ 80, 55, 'Partly Cloudy', CLOUDY_PARTLY[FLAT], 'back to normal'];
+var friday = [ 81, 55, 'Finally', CLOUDY_PARTLY[FLAT], 'Phew'];
 
 
 
