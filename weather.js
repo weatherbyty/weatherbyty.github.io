@@ -51,12 +51,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'August 26-30 Weather for Beaverton, OR';
-var monday = [ 85, 56, 'Sunny', SUNNY[FLATLINE], '8 Days'];
-var tuesday = [ 90, 62, 'Sun', CLOUDY_PARTLY[FLATLINE], ' HOT'];
-var wednesday = [ 92, 64, '!!!', CLOUDY_PARTLY[FLATLINE], '6 Days'];
-var thursday = [ 89, 61, 'Partly Cloudy', SUNNY[FLATLINE], 'A little better'];
-var friday = [ 88, 57, 'Still hot', CLOUDY_MOSTLY[FLATLINE], 'Ok..'];
+var weekof = 'September 2-6 Weather for Beaverton, OR';
+var monday = [ 83, 56, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Happy Labor Day'];
+var tuesday = [ 82, 52, 'Sun', CLOUDY_PARTLY[FLATLINE], ' First Day of School for 6th'];
+var wednesday = [ 85, 56, 'Nice Weather', SUNNY[FLATLINE], 'First Day for 7th and 8th'];
+var thursday = [ 87, 58, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'A little better'];
+var friday = [ 79, 55, 'Finally', CLOUDY_MOSTLY[FLATLINE], 'Ok..'];
 
 
 
