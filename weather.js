@@ -52,11 +52,11 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weekof = 'September 9-13 Weather for Beaverton, OR';
-var monday = [ 65, 52, 'Showers', RAIN_SHOWERS[FLATLINE], 'Ugh'];
-var tuesday = [ 66, 49, 'Showers', THUNDERSTORM[FLATLINE], ' Chance of T-Storms'];
+var monday = [ 64, 52, 'Thunderstorms', THUNDERSTORM[FLATLINE], '80% Chance'];
+var tuesday = [ 68, 53, 'Showers', THUNDERSTORM[FLATLINE], ' Chance of T-Storms'];
 var wednesday = [ 72, 55, 'Nice Weather', CLOUDY_PARTLY[FLATLINE], 'One week into school-ish'];
-var thursday = [ 75, 54, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'A little better'];
-var friday = [ 73, 55, 'Showers', RAIN_SHOWERS[FLATLINE], 'Ok..'];
+var thursday = [ 81, 57, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'A little better'];
+var friday = [ 74, 55, 'Showers', CLOUSY_MOSTLY[FLATLINE], 'Ok..'];
 
 
 
