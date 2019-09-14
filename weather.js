@@ -51,12 +51,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'September 9-13 Weather for Beaverton, OR';
-var monday = [ 64, 52, 'Thunderstorms', THUNDERSTORM[FLATLINE], '80% Chance'];
-var tuesday = [ 68, 53, 'Showers', THUNDERSTORM[FLATLINE], ' Chance of T-Storms'];
-var wednesday = [ 72, 55, 'Nice Weather', CLOUDY_PARTLY[FLATLINE], 'One week into school-ish'];
-var thursday = [ 81, 57, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'A little better'];
-var friday = [ 74, 55, 'Showers', CLOUSY_MOSTLY[FLATLINE], 'Ok..'];
+var weekof = 'September 16-20 Weather for Beaverton, OR';
+var monday = [ 65, 53, 'Heavy Rain', RAIN_HEAVY[FLATLINE], 'And Thunderstorms'];
+var tuesday = [ 58, 52, 'Showers', THUNDERSTORM[FLATLINE], ' Chance of T-Storms'];
+var wednesday = [ 64, 49, 'Showers', RAIN_SHOWERS[FLATLINE], 'Why??'];
+var thursday = [ 67, 50, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'A little better'];
+var friday = [ 66, 53, 'Showers', RAIN_SHOWERS[FLATLINE], 'Happy Friday!'];
 
 
 
