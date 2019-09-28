@@ -51,12 +51,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'September 16-20 Weather for Beaverton, OR';
-var monday = [ 65, 53, 'Heavy Rain', RAIN_HEAVY[FLATLINE], 'And Thunderstorms'];
-var tuesday = [ 58, 52, 'Showers', THUNDERSTORM[FLATLINE], ' Chance of T-Storms'];
-var wednesday = [ 64, 49, 'Showers', RAIN_SHOWERS[FLATLINE], 'Why??'];
-var thursday = [ 67, 50, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'A little better'];
-var friday = [ 66, 53, 'Showers', RAIN_SHOWERS[FLATLINE], 'Happy Friday!'];
+var weekof = 'September 30 - October 5 Weather for Portland Metro Area';
+var monday = [ 59, 36, 'Partly cloudy', CLOUDY_PARTLY[FLATLINE], 'And Cold!'];
+var tuesday = [ 64, 38, 'Sunny for a change', SUNNY[FLATLINE], ' Cold'];
+var wednesday = [ 63, 44, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Sigh'];
+var thursday = [ 58, 45, 'Showers', RAIN_SHOWERS[FLATLINE], '45% Chance'];
+var friday = [ 61, 41, 'Showers', RAIN_SHOWERS[FLATLINE], 'Happy Friday!'];
 
 
 
