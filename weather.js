@@ -51,12 +51,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'September 30 - October 5 Weather for Portland Metro Area';
-var monday = [ 59, 36, 'Partly cloudy', CLOUDY_PARTLY[FLATLINE], 'And Cold!'];
-var tuesday = [ 64, 38, 'Sunny for a change', SUNNY[FLATLINE], ' Cold'];
-var wednesday = [ 63, 44, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Sigh'];
-var thursday = [ 58, 45, 'Showers', RAIN_SHOWERS[FLATLINE], '45% Chance'];
-var friday = [ 61, 41, 'Showers', RAIN_SHOWERS[FLATLINE], 'Happy Friday!'];
+var weekof = 'October 21 - October 25 Weather for Portland-Beaverton Areas';
+var monday = [ 58, 53, 'Cloudy', CLOUDY[FLATLINE], 'And Cold!'];
+var tuesday = [ 63, 38, 'Rain', RAIN[FLATLINE], ' Showery at night'];
+var wednesday = [ 60, 38, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Good!'];
+var thursday = [ 64, 39, 'Sunny', SUNNY[FLATLINE], 'Cold at night'];
+var friday = [ 59, 37, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Cold at night x2'];
 
 
 
