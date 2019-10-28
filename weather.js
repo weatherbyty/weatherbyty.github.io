@@ -52,11 +52,11 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weekof = 'October 21 - October 25 Weather for Portland-Beaverton Areas';
-var monday = [ 58, 53, 'Cloudy', CLOUDY[FLATLINE], 'And Cold!'];
-var tuesday = [ 63, 38, 'Rain', RAIN[FLATLINE], ' Showery at night'];
-var wednesday = [ 60, 38, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Good!'];
-var thursday = [ 64, 39, 'Sunny', SUNNY[FLATLINE], 'Cold at night'];
-var friday = [ 59, 37, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Cold at night x2'];
+var monday = [ 55, 35, 'Sun', SUNNY[FLATLINE], 'And Cold!'];
+var tuesday = [ 46, 24, 'Sun/Wind', SUNNY_WINDY[FLATLINE], 'COOLD'];
+var wednesday = [ 52, 26, 'Sun', SUNNY_WINDY[FLATLINE], 'cold'];
+var thursday = [ 54, 30, 'Sunny', FOG[FLATLINE], 'Fog developing'];
+var friday = [ 53, 29, 'Windy/Sunny', SUNNY_WINDY[FLATLINE], 'the new normal huh'];
 
 
 
