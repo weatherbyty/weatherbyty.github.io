@@ -52,8 +52,8 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weekof = 'November 4 - November 8 Weather for Portland-Beaverton Areas';
-var monday = [ --, --, '--', SUNNY[FLATLINE], '--'];
-var tuesday = [ --, --, '--', SUNNY[FLATLINE], '--'];
+var monday = [ 0, 0, '0', SUNNY[FLATLINE], '0'];
+var tuesday = [ 0, 0, '0', SUNNY[FLATLINE], '0'];
 var wednesday = [ 53, 38, 'Foggy', FOG[FLATLINE], 'Normal'];
 var thursday = [ 57, 38, 'Some Fog', FOG[FLATLINE], 'Fog developing'];
 var friday = [ 59, 35, 'Warmer', SUNNY_PARTLY[FLATLINE], 'Colder at night'];
