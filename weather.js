@@ -54,9 +54,9 @@ var NOTE = 4;
 var weekof = 'November 25 - November 29 Weather for Portland-Beaverton Areas';
 var monday = [ 46, 36, 'Somewhat Rainy', RAIN[FLATLINE], 'Rain at night'];
 var tuesday = [ 44, 30, 'Chance of Rain', SUNNY_RAIN[FLATLINE], '50% chance'];
-var wednesday = [ 39, 29, 'Rain/Snow Mix', RAIN_SNOW_MIX[FLATLINE], 'Hmm'];
-var thursday = [ 41, 25, 'Sunny Thanksgiving', SUNNY[FLATLINE], 'Cold!'];
-var friday = [ 42, 27, 'Partly Cloudy', SNOW_SHOWERS[FLATLINE], 'Snow Showers in the morning'];
+var wednesday = [ 41, 27, 'Sunny', SUNNY[FLATLINE], 'Hmm'];
+var thursday = [ 39, 22, 'Sunny Thanksgiving', SUNNY[FLATLINE], 'Colder areas below 20'];
+var friday = [ 42, 27, 'Partly Cloudy', CLOUDY_MOSTLY[FLATLINE], 'Snow Showers in the morning-maybe'];
 
 
 
