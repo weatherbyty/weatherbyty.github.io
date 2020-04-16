@@ -51,12 +51,12 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weekof = 'March 9-13';
-var monday = [ 54, 33, 'Partly Cloudy', SUNNY_RAIN[FLATLINE], 'Showers at night'];
-var tuesday = [ 56, 36, 'Sunny', SUNNY[FLATLINE], 'Cloud Intervals'];
-var wednesday = [ 55, 40, 'Sunny', SUNNY[FLATLINE], 'Coronavirus'];
-var thursday = [ 53, 38, 'Shower Chance', RAIN_SHOWERS[FLATLINE], 'Showers'];
-var friday = [ 52, 39, 'Local Rain', RAIN_SHOWERS[FLATLINE], 'Showers at night'];
+var weekof = 'April 20-24';
+var monday = [ 70, 42, 'Sunny', SUNNY[FLATLINE], 'Showers at night'];
+var tuesday = [ 64, 45, 'Fair', CLOUDY_PARTLY[FLATLINE], 'Cloud Intervals'];
+var wednesday = [ 63, 44, 'Showers', SUNNY_RAIN[FLATLINE], 'Coronavirus'];
+var thursday = [ 61, 40, 'Mostly Cloudy', CLOUDY_MOSTLY[FLATLINE], 'Showers'];
+var friday = [ 67, 43, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Showers at night'];
 
 
 
