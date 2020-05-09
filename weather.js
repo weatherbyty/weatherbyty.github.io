@@ -57,7 +57,7 @@ var monday = [ 67, 51, 'Rainy', RAIN[FLATLINE], 'Rainy day'];
 var tuesday = [ 60, 47, 'Showers', RAIN_SHOWERS[FLATLINE], 'Few rain showers'];
 var wednesday = [ 60, 48, 'Showers', RAIN_SHOWERS[FLATLINE], 'Coronavirus'];
 var thursday = [ 60, 45, 'AM Showers', SUNNY_RAIN[FLATLINE], 'Showers'];
-var friday = [ 66, 49, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Stay home. Save lives.'];
+var friday = [ 66, 49, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Stay home.<br/>Save lives.'];
 
 
 
