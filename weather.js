@@ -52,12 +52,12 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weatherLocation = 'Portland Oregon Metro Area';
-var weekof = 'April 20-24';
-var monday = [ 70, 42, 'Sunny', SUNNY[FLATLINE], 'Showers at night'];
-var tuesday = [ 64, 45, 'Fair', CLOUDY_PARTLY[FLATLINE], 'Cloud Intervals'];
-var wednesday = [ 63, 44, 'Showers', SUNNY_RAIN[FLATLINE], 'Coronavirus'];
-var thursday = [ 61, 40, 'Mostly Cloudy', CLOUDY_MOSTLY[FLATLINE], 'Showers'];
-var friday = [ 67, 43, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Showers at night'];
+var weekof = 'May 11-15';
+var monday = [ 67, 51, 'Rainy', RAIN[FLATLINE], 'Rainy day'];
+var tuesday = [ 60, 47, 'Showers', RAIN_SHOWERS[FLATLINE], 'Few rain showers'];
+var wednesday = [ 60, 48, 'Showers', RAIN_SHOWERS[FLATLINE], 'Coronavirus'];
+var thursday = [ 60, 45, 'AM Showers', SUNNY_RAIN[FLATLINE], 'Showers'];
+var friday = [ 66, 49, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Stay home. Save lives.'];
 
 
 
