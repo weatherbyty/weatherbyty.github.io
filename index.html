@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background: url('background.gif') no-repeat right center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+<html lang="en" style="background: url('weatherbyty-background.png') repeat-x left bottom fixed; -webkit-background-size: auto; -moz-background-size: auto; -o-background-size: auto; background-size: auto;">
 
 <head>
     <meta charset="utf-8">
@@ -7,186 +7,45 @@
     <meta name="description" content="Weather By Ty">
     <meta name="author" content="Tynan Wuehler">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="normalize.css">
-    <!-- <link rel="stylesheet" href="skeleton.css"> -->
-    <link rel="stylesheet" href="weather.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript" src="weather.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="weatherbyty.css">
 
     <script type="text/javascript">
         $(document).ready(function() {
-            // Week Of
-            $("#weekof").html(weekof);
-
-            // Monday
-            $("#monHigh").html(monday[HIGH].toString());
-            $("#monLow").html(monday[LOW].toString());
-            $("#monForecast").html(monday[FORECAST]);
-            $("#monPic").attr('src', monday[PICTURE]);
-            $("#monNote").html(monday[NOTE]);
-
-            // Tuesday
-            $("#tueHigh").html(tuesday[HIGH].toString());
-            $("#tueLow").html(tuesday[LOW].toString());
-            $("#tueForecast").html(tuesday[FORECAST]);
-            $("#tuePic").attr('src', tuesday[PICTURE]);
-            $("#tueNote").html(tuesday[NOTE]);
-
-            // Wednesday
-            $("#wedHigh").html(wednesday[HIGH].toString());
-            $("#wedLow").html(wednesday[LOW].toString());
-            $("#wedForecast").html(wednesday[FORECAST]);
-            $("#wedPic").attr('src', wednesday[PICTURE]);
-            $("#wedNote").html(wednesday[NOTE]);
-
-            // Thursday
-            $("#thuHigh").html(thursday[HIGH].toString());
-            $("#thuLow").html(thursday[LOW].toString());
-            $("#thuForecast").html(thursday[FORECAST]);
-            $("#thuPic").attr('src', thursday[PICTURE]);
-            $("#thuNote").html(thursday[NOTE]);
-
-            // Friday
-            $("#friHigh").html(friday[HIGH].toString());
-            $("#friLow").html(friday[LOW].toString());
-            $("#friForecast").html(friday[FORECAST]);
-            $("#friPic").attr('src', friday[PICTURE]);
-            $("#friNote").html(friday[NOTE]);
-
         });
     </script>
 
     <style type="text/css">
         body {
             font-weight: 400;
-            font-family: "Merriweather", "Times", serif;
-            color: #232323;
+            font-family: "Merriweather Sans", sans-serif;
+            color: #333333;
             font-size: large;
+        }
+        .logoimage {
+            width: 100%;
+            max-width: 512px;
+            height: auto;
         }
     </style>
 
 </head>
 
 <body>
-    <div class="container">
-        <div class="title">
-            <span class="outlinetitle">Highland Park Middle School</span>
-        </div>
-        <div class="subtitle">
-            <span class="outlinetitle" id="weekof">--</span>
+    <div class="row">
+        <div class="twelve columns" style="text-align: center;">
+            <img src="/images/weatherbytylogo-512@2x.png" class="logoimage" />
         </div>
     </div>
-    <div class="forecast-container">
-        <div class="bordered">
-            <div class="header">
-                <strong>Monday</strong>
-            </div>
-            <div class="forecast-picture">
-                <img id="monPic" src="images/weatherbyty-transparent.png" />
-            </div>
-            <div class="forecast">
-                <span id="monForecast">--</span>
-            </div>
-            <div class="hightemp">
-                <span id="monHigh">--</span>&deg;
-            </div>
-            <div class="notes">
-                <span id="monNote">--</span>
-            </div>
-            <div class="lowtemp">
-                <span id="monLow">--</span>&deg;
-            </div>
-        </div>
-        <div class="bordered">
-            <div class="header">
-                <strong>Tuesday</strong>
-            </div>
-            <div class="forecast-picture">
-                <img id="tuePic" src="images/weatherbyty-transparent.png" />
-            </div>
-            <div class="forecast">
-                <span id="tueForecast">--</span>
-            </div>
-            <div class="hightemp">
-                <span id="tueHigh">--</span>&deg;
-            </div>
-            <div class="notes">
-                <span id="tueNote">--</span>
-            </div>
-            <div class="lowtemp">
-                <span id="tueLow">--</span>&deg;
-            </div>
-        </div>
-        <div class="bordered">
-            <div class="header">
-                <strong>Wednesday</strong>
-            </div>
-            <div class="forecast-picture">
-                <img id="wedPic" src="images/weatherbyty-transparent.png" />
-            </div>
-            <div class="forecast">
-                <span id="wedForecast">--</span>
-            </div>
-            <div class="hightemp">
-                <span id="wedHigh">--</span>&deg;
-            </div>
-            <div class="notes">
-                <span id="wedNote">--</span>
-            </div>
-            <div class="lowtemp">
-                <span id="wedLow">--</span>&deg;
-            </div>
-        </div>
-        <div class="bordered">
-            <div class="header">
-                <strong>Thursday</strong>
-            </div>
-            <div class="forecast-picture">
-                <img id="thuPic" src="images/weatherbyty-transparent.png" />
-            </div>
-            <div class="forecast">
-                <span id="thuForecast">--</span>
-            </div>
-            <div class="hightemp">
-                <span id="thuHigh">--</span>&deg;
-            </div>
-            <div class="notes">
-                <span id="thuNote">--</span>
-            </div>
-            <div class="lowtemp">
-                <span id="thuLow">--</span>&deg;
-            </div>
-        </div>
-        <div class="bordered">
-            <div class="header">
-                <strong>Friday</strong>
-            </div>
-            <div class="forecast-picture">
-                <img id="friPic" src="images/weatherbyty-transparent.png" />
-            </div>
-            <div class="forecast">
-                <span id="friForecast">--</span>
-            </div>
-            <div class="hightemp">
-                <span id="friHigh">--</span>&deg;
-            </div>
-            <div class="notes">
-                <span id="friNote">--</span>
-            </div>
-            <div class="lowtemp">
-                <span id="friLow">--</span>&deg;
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="footer">
-            <span class="about">Weather Data compiled by Tynan Wuehler from various sources, including <a href="https://www.weather.gov">The National Weather Service</a>, 
-                <a href="https://weather.com">The Weather Channel</a>, <a href="https://www.accuweather.com/">AccuWeather</a>, <a href="https://wunderground.com">The Weather Underground</a>,
-                and a local <a href="https://www.acurite.com/environments/weather-stations.html">AcuRite Personal Weather Station</a>.
+    <div class="row">
+        <div class="six columns" style="text-align: center;">
+            <span style="font-size: large;">
+                Check out my Podcast @ <a href="https://anchor.fm/weatherbyty">Anchor.fm</a>
             </span>
-            <br/><br/>
-            <span class="license">Forecast icons made by <a title="Freepik" href="http://www.freepik.com">Freepik</a> from <a title="Flaticon" href="http://www.flaticon.com">www.flaticon.com</a>&nbsp;</span>
+        </div>
+        <div class="six columns" style="text-align: center;">
+            Check out my latest <a href="forecast.html">Forecast</a>
         </div>
     </div>
 </body>

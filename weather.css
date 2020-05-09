@@ -1,22 +1,23 @@
 a:link {
-    color: darkgray;
+    color: #1080FF;
     text-decoration: none;
 }
 
 a:hover {
-    color: darkred;
+    color: #333333;
     text-decoration: none;
 }
 
 a:visited {
-    color: darkgray;
+    color: #666666;
     text-decoration: none;
 }
 
 
+
 .container {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
     text-align: center;
 }
 
@@ -27,7 +28,7 @@ a:visited {
     justify-content: center;
     /* height: 1080px; */
     align-items: top;
-    background-color: rgba(100, 100, 100, 0.8);
+    background-color: rgba(232, 232, 232, 0.8);
 }
 
 .title {
@@ -43,8 +44,9 @@ a:visited {
 }
 
 .outlinetitle {
-    color: black;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #333333;
+    font-weight: 700;
+    /* text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333; */
 }
 
 .header {
@@ -52,13 +54,15 @@ a:visited {
     padding-bottom: 10pt;
     text-align: center;
     font-size: calc(3vw);
-    background-color: rgba(255,255,255,0.5);
+    background-color: #1080FF;
+    color: #FFFFFF;
+    /* text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333; */
 }
 
 .bordered {
-    border-left: 1pt black solid;
-    border-right: 1pt black solid;
-    border-top: 2pt black solid;
+    /* border-left: 1pt black solid; */
+    /* border-right: 1pt black solid; */
+    /* border-top: 2pt black solid; */
     width: 20%;
     text-align: center;
     vertical-align: middle;
@@ -79,8 +83,9 @@ a:visited {
     padding-bottom: 10pt;
     text-align: center;
     font-size: calc(2.5vw);
-    color: lightgray;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #1080FF;
+    color: #EEEEEE;
+    /* text-shadow: -1px 0 #666666, 0 1px #666666, 1px 0 #666666, 0 -1px #666666; */
 }
 
 .hightemp {
@@ -88,8 +93,8 @@ a:visited {
     padding-bottom: 10pt;
     text-align: center;
     font-size: calc(8vw);
-    background-color: rgba(255,255,255,0.5);
-    border-bottom: black;
+    /* background-color: rgba(255,255,255,0.5); */
+    /* border-bottom: black; */
 }
 
 .notes {
@@ -98,7 +103,7 @@ a:visited {
     padding-top: 10pt;
     padding-bottom: 10pt;
     font-size: calc(2vw);
-    background-color: rgba(100,100,100,0.8);
+    /* background-color: rgba(100,100,100,0.8); */
 }
 
 .lowtemp {
@@ -106,19 +111,25 @@ a:visited {
     padding-bottom: 10pt;
     text-align: center;
     font-size: calc(4vw);
-    background-color: rgba(255,255,255,0.5);
-    border-top: black;
+    /* background-color: rgba(255,255,255,0.5); */
+    /* border-top: black; */
 }
 
 .footer {
     padding-top: 20pt;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 20pt; 
+    padding-bottom: 20pt;
     text-align: center;
-    color: lightgray;
-    background-color: rgba(0, 0, 0, 0.7);
+    color: #333333;
+    /* color: lightgray; */
+    /* background-color: rgba(0, 0, 0, 0.7); */
 }
+.footer a:link {
+    color: #333333;
+    text-decoration: none;
+}
+
 
 .about {
     font-size: calc(1.5vw);

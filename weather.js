@@ -42,8 +42,8 @@ var ICE = ["icons/flatline/png/030-clouds-1.png", "icons/flat/png/030-clouds-1.p
 
 
 /*
-    Each day has a high, low, forecast string, picture to show, and any extra notes 
-    in an array 
+    Each day has a high, low, forecast string, picture to show, and any extra notes
+    in an array
 */
 var HIGH = 0;
 var LOW = 1;
@@ -51,6 +51,7 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
+var weatherLocation = 'Portland Oregon Metro Area';
 var weekof = 'April 20-24';
 var monday = [ 70, 42, 'Sunny', SUNNY[FLATLINE], 'Showers at night'];
 var tuesday = [ 64, 45, 'Fair', CLOUDY_PARTLY[FLATLINE], 'Cloud Intervals'];
