@@ -10,10 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="skeleton.css">
     <link rel="stylesheet" href="weatherbyty.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    <script type="text/javascript" src="weather.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="weather.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function() {
+            $("#spotifybutton").click(function(){
+                window.open("https://open.spotify.com/show/3gccivREGoLLIw4hKFr1IR");
+            });
         });
     </script>
 
@@ -41,10 +45,26 @@
     </div>
     <div class="row">
         <div class="six columns" style="text-align: center;">
-            Check out my Podcast @ <a href="https://anchor.fm/weatherbyty">Anchor.fm</a>
+            <div>
+                Listen to my <a href="https://anchor.fm/weatherbyty">Podcast</a>
+            </div>
         </div>
         <div class="six columns" style="text-align: center;">
-            Check out my latest <a href="forecast.html">Forecast</a>
+            Read my latest <a href="forecast.html">Forecast</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns" style="text-align: center;">
+            <a href="https://overcast.fm/itunes1514536819/weather-by-ty">
+            <img src="images/overcast.svg" style="width: 165px;"/>
+            </a>
+            <a href="https://podcasts.apple.com/us/podcast/weather-by-ty/id1514536819?mt=2&app=podcast" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-05-26T00:00:00Z&kind=podcast&bubble=podcasts) no-repeat;width:165px;height:40px;"></a>
+            <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yMDVmOGI1NC9wb2RjYXN0L3Jzcw==">
+            <img src="images/EN_Google_Podcasts_Badge.svg" style="width: 165px; height: 40px;" />
+            </a>
+            <a href="https://open.spotify.com/show/3gccivREGoLLIw4hKFr1IR">
+            <img src="images/spotify-podcast-badge-wht-grn-165x40.svg" style="width: 165px; height: 40px;"/>
+            </a>
         </div>
     </div>
 </body>
