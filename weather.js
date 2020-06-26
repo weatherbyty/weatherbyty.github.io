@@ -5,7 +5,7 @@
 var FLATLINE = 0;
 var FLAT = 1;
 var LINE = 2;
-
+ 
 var SUNNY = ["icons/flatline/png/050-sun.png", "icons/flat/png/050-sun.png", "icons/line/png/050-sun.png"];
 var SUNNY_HAZY = ["icons/flatline/png/033-sunrise.png", "icons/flat/png/033-sunrise.png", "icons/line/png/033-sunrise.png"];
 var SUNNY_WINDY = ["icons/flatline/png/035-windy.png", "icons/flat/png/035-windy.png", "icons/line/png/035-windy.png"];
@@ -52,12 +52,12 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weatherLocation = 'Portland Oregon Metro Area';
-var weekof = 'June 8-12';
-var monday = [ 64, 51, 'Showers', RAIN_SHOWERS[FLATLINE], '40%'];
-var tuesday = [ 66, 55, 'Showers', THUNDERSTORM[FLATLINE], 'Possible Thunderstorm'];
-var wednesday = [ 75, 54, 'Showers', RAIN_SHOWERS[FLATLINE], '30%'];
-var thursday = [ 72, 52, 'Showers Galore', RAIN_SHOWERS[FLATLINE], 'Mostly clear night'];
-var friday = [ 69, 49, 'Cloudy', CLOUDY[FLATLINE], 'Stay home.<br/>Save lives.'];
+var weekof = 'June 29- July 3';
+var monday = [ 75, 52, 'Sunny', SUNNY[FLATLINE], 'I'm walking in sunshine '];
+var tuesday = [ 72, 50, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Sunny Evening'];
+var wednesday = [ 73, 54, 'Slight Chance of Rain', RAIN_SHOWERS[FLATLINE], '30%'];
+var thursday = [ 71, 52, 'Sunny', SUNNY[FLATLINE], 'Look at the stars'];
+var friday = [ 75, 50, 'Mostly Sunny', CLOUDY[FLATLINE], 'Stay home.<br/>Save lives.'];
 
 
 
