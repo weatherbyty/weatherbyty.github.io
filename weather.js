@@ -52,12 +52,12 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weatherLocation = 'Portland Oregon Metro Area';
-var weekof = 'September 7 - September 11';
-var monday = [ 92, 63, 'Hot', SUNNY[FLATLINE], 'Nice Evening '];
-var tuesday = [ 86, 65, 'Hot Evening', SUNNY[FLATLINE], 'Great Weather '];
-var wednesday = [ 95, 59, 'Possible Record Heat', SUNNY_HAZY[FLATLINE], 'Smoky'];
-var thursday = [ 98, 57, 'Very Hot', SUNNY_HAZY[FLATLINE], 'Clear Night'];
-var friday = [ 91, 55, 'Sunny with smoke', SUNNY_HAZY[FLATLINE], 'Still Hot'];
+var weekof = 'October 12 - October 16';
+var monday = [ 58, 45, 'Rainy', RAIN[FLATLINE], 'Cloudy'];
+var tuesday = [ 61, 45, 'Showers', SUNNY[FLATLINE], 'Isolated Showers at Night'];
+var wednesday = [ 61, 46, 'Cloudy', CLOUDY[FLATLINE], 'Clouds'];
+var thursday = [ 64, 49, 'Mostly Sunny', CLOUDY_PARTLY[FLATLINE], 'Some clouds'];
+var friday = [ 64, 43, 'Parly Cloudy', CLOUDY_MOSTLY[FLATLINE], 'Clouds clearing'];
 
 
 
