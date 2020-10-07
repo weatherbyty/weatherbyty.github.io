@@ -51,7 +51,7 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weatherLocation = 'Portland Oregon Metro Area';
+var weatherLocation = 'Beaverton Oregon';
 var weekof = 'October 12 - October 16';
 var monday = [ 58, 45, 'Rainy', RAIN[FLATLINE], 'Cloudy'];
 var tuesday = [ 61, 45, 'Showers', SUNNY[FLATLINE], 'Isolated Showers at Night'];
