@@ -53,11 +53,11 @@ var NOTE = 4;
 
 var weatherLocation = 'Beaverton Oregon';
 var weekof = 'October 12 - October 16';
-var monday = [ 58, 45, 'Rainy', RAIN[FLATLINE], 'Cloudy'];
-var tuesday = [ 61, 45, 'Showers', SUNNY[FLATLINE], 'Isolated Showers at Night'];
-var wednesday = [ 61, 46, 'Cloudy', CLOUDY[FLATLINE], 'Clouds'];
-var thursday = [ 64, 49, 'Mostly Sunny', CLOUDY_PARTLY[FLATLINE], 'Some clouds'];
-var friday = [ 64, 43, 'Parly Cloudy', CLOUDY_MOSTLY[FLATLINE], 'Clouds clearing'];
+var monday = [ 58, 44, 'Rainy', RAIN[FLATLINE], 'Cloudy'];
+var tuesday = [ 61, 44, 'Showers', SUNNY[FLATLINE], 'Isolated Showers at Night'];
+var wednesday = [ 61, 38, 'Cloudy', RAIN[FLATLINE], 'Frost??'];
+var thursday = [ 60, 40, 'Sunny', SUNNY[FLATLINE], 'Some clouds'];
+var friday = [ 63, 46, 'Parly Cloudy', CLOUDY_MOSTLY[FLATLINE], 'Clouds clearing'];
 
 
 
