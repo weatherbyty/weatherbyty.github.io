@@ -52,12 +52,12 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weatherLocation = 'Beaverton Oregon';
-var weekof = 'October 12 - October 16';
-var monday = [ 58, 44, 'Rainy', RAIN[FLATLINE], 'Cloudy'];
-var tuesday = [ 61, 44, 'Showers', SUNNY[FLATLINE], 'Isolated Showers at Night'];
-var wednesday = [ 61, 38, 'Cloudy', RAIN[FLATLINE], 'Frost??'];
-var thursday = [ 60, 40, 'Sunny', SUNNY[FLATLINE], 'Some clouds'];
-var friday = [ 63, 46, 'Parly Cloudy', CLOUDY_MOSTLY[FLATLINE], 'Clouds clearing'];
+var weekof = 'October 30 - November 3';
+var monday = [ 59, 34, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'FRIDAY'];
+var tuesday = [ 60, 35, '2020 Blue Moon and Full moon', SUNNY[FLATLINE], 'HALLOWEEN NIGHT will be clear'];
+var wednesday = [ 63, 38, 'Mild with Sun', SUNNY[FLATLINE], 'SUNDAY'];
+var thursday = [ 61, 43, 'Sunny', SUNNY[FLATLINE], 'MONDAY'];
+var friday = [ 56, 52, 'Showers', RAIN[FLATLINE], 'TUESDAY'];
 
 
 
