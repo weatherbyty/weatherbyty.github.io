@@ -52,12 +52,12 @@ var PICTURE = 3;
 var NOTE = 4;
 
 var weatherLocation = 'Beaverton Oregon';
-var weekof = 'January 11 to 15';
-var monday = [ 49, 42, 'Cloudy Morning', RAIN_SHOWERS[FLATLINE], 'Rainy'];
-var tuesday = [ 54, 43, 'Wet Day', RAIN_HEAVY[FLATLINE], 'Evening Showers'];
-var wednesday = [ 55, 46, 'Scattered Showers', RAIN[FLATLINE], 'Showers after Midnight'];
-var thursday = [ 52, 44, 'Cloudy Day', CLOUDY[FLATLINE], 'Some rain'];
-var friday = [ 50, 37, 'Showers', RAIN_SHOWERS[FLATLINE], 'Cloudy'];
+var weekof = 'January 18 to 22';
+var monday = [ 48, 34, 'Partly Cloudy', CLOUDY_PARTLY[FLATLINE], 'Dry'];
+var tuesday = [ 50, 36, 'Mostly Sunny', SUNNY[FLATLINE], '10% chance of rain'];
+var wednesday = [ 45, 33, 'Cloudy', CLOUDY[FLATLINE], 'Isolated showers'];
+var thursday = [ 44, 34, 'Showers', RAIN_SHOWERS[FLATLINE], 'Possible Wintry Mix after midnight'];
+var friday = [ 42, 29, 'Peeks of Sun', WINTERY_MIX[FLATLINE], 'Snow??'];
 
 
 
