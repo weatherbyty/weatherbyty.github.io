@@ -51,13 +51,13 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weatherLocation = 'Beaverton Oregon';
-var weekof = 'May 24 to 28';
-var monday = [ 61, 48, 'Cloudy with Drizzle', CLOUDY_PARTLY[FLATLINE], 'Showers in the evening'];
-var tuesday = [ 63, 46, 'Nice and... Cloudy', SUNNY[FLATLINE], 'Clearing out later'];
-var wednesday = [ 72, 50, 'Partly Cloudy', CLOUDY[FLATLINE], 'Some showers'];
-var thursday = [ 63, 45, 'Showers', RAIN_SHOWERS[FLATLINE], 'Some clouds'];
-var friday = [ 66, 42, 'Partly Sunny', WINTERY_MIX[FLATLINE], 'Turning clear by midnight'];
+var weatherLocation = 'Portland Metro Area';
+var weekof = 'Nov 7 to 11';
+var monday = [ 69, 69, 'Dusting off the place', SNOW[FLATLINE], 'text'];
+var tuesday = [ 69, 69, 'Hang in there', SNOW[FLATLINE], 'text'];
+var wednesday = [ 69, 69, 'For another month', SNOW[FLATLINE], 'text'];
+var thursday = [ 69, 69, 'or two..', SNOW[FLATLINE], 'text'];
+var friday = [ 69, 69, 'Wx coming soon', SNOW[FLATLINE], 'text'];
 
 
 
