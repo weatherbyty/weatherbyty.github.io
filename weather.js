@@ -51,13 +51,13 @@ var FORECAST = 2;
 var PICTURE = 3;
 var NOTE = 4;
 
-var weatherLocation = 'Portland Metro Area';
-var weekof = 'Nov 7 to 11';
-var monday = [ 69, 69, 'Dusting off the place', SNOW[FLATLINE], 'text'];
-var tuesday = [ 69, 69, 'Hang in there', SNOW[FLATLINE], 'text'];
-var wednesday = [ 69, 69, 'For another month', SNOW[FLATLINE], 'text'];
-var thursday = [ 69, 69, 'or two..', SNOW[FLATLINE], 'text'];
-var friday = [ 69, 69, 'Wx coming soon', SNOW[FLATLINE], 'text'];
+var weatherLocation = 'Metro Area';
+var weekof = 'July 10 to 14';
+var monday = [ 78, 53, 'Cloudy Morning', CLOUDY_MOSTLY[FLATLINE], 'Might be a little sunny'];
+var tuesday = [ 79, 50, 'Nice Day', CLOUDY_PARTLY[FLATLINE], 'Clear!'];
+var wednesday = [ 82, 54, 'Sunny', CLOUDY_PARTLY[FLATLINE], 'Not bad'];
+var thursday = [ 81, 55, 'Clear with no clouds in sight', SUNNY_HAZY[FLATLINE], 'Venus will be nice and bright!'];
+var friday = [ 88, 57, 'Little hotter', SUNNY_HAZY[FLATLINE], 'Comfortable night'];
 
 
 
